@@ -7,11 +7,15 @@ h1{
 .main_div{
     border: 2px solid black;
     height: 2000px;
+    width: 1200px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
 }
 
 /* for inside border & text position*/
 .animation_1{
-    margin: 20px 20px;
+    margin: 20px 25px;
     height: 150px;
     width: 300px;
     padding: 20px;
@@ -28,7 +32,7 @@ h3{
     display: inline-block;
 }
 
-/* for button_animation */
+/* for button_animation_1 */
 .test_1{
     left: 50%;
     padding: 40px 80px;
@@ -59,19 +63,239 @@ h3{
     display: inline-block;
 }
 
+/* for button_animation_2 */
 .animation_2{
-    margin: 20px;
+    margin: 20px 25px;
     border: 2px solid black;
     width: 300px;
     height: 150px;
     display: inline-block;
-    position: absolute;
+    position: relative;
+    padding: 20px;
 }
 
 .test_2{
-    
+    left: 50%;
+    padding: 40px 80px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    transform: translate(-50%);
+    position: relative;
+    border: none;
+    z-index: 1;
+    display: inline-block;
 }
 
+.overlay_2{
+    background-color: chocolate;
+    height: 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
 
+.test_2:hover .overlay_2{
+    height: 100%;
+    display: inline-block;
+}
+
+/* for button_animation_3 */
+.animation_3{
+    margin: 20px 25px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.test_3{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(142, 84, 197);
+    border: none;
+    display: inline-block;
+    z-index: 1;
+}
+
+.overlay_3{
+    background-color: burlywood;
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_3:hover .overlay_3{
+    width: 100%;
+    display: inline-block;
+}
+
+/* for button_animation_4*/
+.animation_4{
+    margin: 20px 25px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.test_4{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(236, 171, 102);
+    border: none;
+    display: inline-block;
+    z-index: 1;
+}
+
+.overlay_4{
+    background-color: rgb(92, 204, 111);
+    height: 100%;
+    width: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_4:hover .overlay_4{
+    width: 100%;
+    display: inline-block;
+}
+/* for button_animation_5*/
+.animation_5{
+    margin: 20px 25px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.test_5{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(196, 102, 102);
+    border: none;
+    display: inline-block;
+    z-index: 1;
+}
+
+.overlay_5_1{
+    background-color: rgb(40, 220, 211);
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_5:hover .overlay_5_1{
+    width: 50%;
+    display: inline-block;
+}
+.overlay_5_2{
+    background-color: rgb(40, 220, 211);
+    height: 100%;
+    width: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_5:hover .overlay_5_2{
+    width: 50%;
+    display: inline-block;
+}
+/* for button_animation_6*/
+.animation_6{
+    margin: 20px 25px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.test_6{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(89, 209, 49);
+    border: none;
+    display: inline-block;
+    z-index: 1;
+}
+
+.overlay_6_1{
+    background-color: rgb(227, 126, 58);
+    height: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_6:hover .overlay_6_1{
+    height: 50%;
+    display: inline-block;
+}
+.overlay_6_2{
+    background-color: rgb(227, 126, 58);
+    height: 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_6:hover .overlay_6_2{
+    height: 50%;
+    display: inline-block;
+}
 
 
