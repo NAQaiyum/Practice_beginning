@@ -7,17 +7,17 @@ h1{
 .main_div{
     border: 2px solid black;
     height: 2000px;
-    margin: 30px;
-    padding: 20px 20px;
 }
 
 /* for inside border & text position*/
 .animation_1{
+    margin: 20px 20px;
     height: 150px;
     width: 300px;
     padding: 20px;
     border: 2px solid black;
     position: relative;
+    display: inline-block;
 }
 
 h3{
@@ -25,6 +25,7 @@ h3{
     left: 50%;
     transform: translate(-50%);
     position: absolute;
+    display: inline-block;
 }
 
 /* for button_animation */
@@ -38,6 +39,7 @@ h3{
     transform: translateX(-50%);
     position: relative;
     z-index: 1;
+    display: inline-block;
 }
 
 .overlay_1{
@@ -49,10 +51,25 @@ h3{
     left: 0;
     transition: 1s;
     z-index: -1;
+    display: inline-block;
 }
 
 .test_1:hover .overlay_1{
     height: 100%;
+    display: inline-block;
+}
+
+.animation_2{
+    margin: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+}
+
+.test_2{
+    
 }
 
 
