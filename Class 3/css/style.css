@@ -1,0 +1,331 @@
+.body{
+    background-color: rgb(238, 238, 183);
+    margin: 30px;
+}
+h1{
+    text-align: left;
+    font-style: italic;
+}
+ button{
+    margin: 15px 0px 15px 5%;
+    padding: 10px 15px;
+    border-radius: 15px 0px;
+    border-width: 1px;
+    background-color: #e5e6e1;
+    color: black;
+    font-size: small;
+ }
+ button:hover{
+    background-color: rgb(245, 133, 43);
+    color: #fff;
+    transition: .5s;
+    font-style: italic;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 0px 15px;
+ }
+
+.flag_1{
+    height: 150px;
+    width: 250px;
+    background-color: rgb(74, 139, 8);
+    border-radius: 20px;
+    position: relative;
+}
+.bangladesh{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(220, 12, 12);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag_2{
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.japan{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(220, 12, 12);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag_3{
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.india_o{
+    height: 50px;
+    width: auto;
+    background-color: rgb(216, 75, 5);
+    border-radius: 20px 20px 0px 0px;
+}
+.india_w{
+    height: 50px;
+    width: auto;
+    background-color: #fff;
+}
+.india_g{
+    height: 50px;
+    width: auto;
+    background-color: rgb(7, 63, 16);
+    border-radius: 0px 0px 20px 20px;
+} 
+.india_img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag_4{
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px !important;
+    position: relative;
+
+}
+.germany_b{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px 20px 0px 0px;
+}
+.germany_r{
+    height: 50px;
+    width: 250px;
+    background-color: #db0808;
+}
+.germany_g{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(204, 177, 3);
+    border-radius: 0px 0px 20px 20px;
+} 
+.flag_5{
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px !important;
+    position: relative;
+
+}
+.russia_w{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+}
+.russia_b{
+    height: 50px;
+    width: 250px;
+    background-color: #0477ea;
+}
+.russia_r{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(211, 1, 1);
+    border-radius: 0px 0px 20px 20px;
+} 
+.flag_6{
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.spain_r{
+    height: 40px;
+    width: auto;
+    background-color: rgb(216, 75, 5);
+    border-radius: 20px 20px 0px 0px;
+}
+.spain_red{
+    height: 40px;
+    width: auto;
+    background-color: rgb(216, 75, 5);
+    border-radius: 0px 0px 20px 20px;
+}
+.spain_g{
+    height: 70px;
+    width: auto;
+    background-color: rgb(223, 223, 36);
+    /* border-radius: 0px 0px 20px 20px; */
+} 
+.spain_img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 25%;
+    top: 50%;
+    transform: translate(-25%, -50%);
+}
+.flag_7{
+    height: 150px;
+    width: 250px;
+    background-color: #cd0808;
+    border-radius: 20px;
+    position: relative;
+}
+.morocco_img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag_8{
+    height: 150px;
+    width: 250px;
+    background-color: #cd0808;
+    border-radius: 20px;
+    position: relative;
+}
+.china_img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 15%;
+    top: 25%;
+    transform: translate(-25%, -30%);
+}
+.china_img_1{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 35%;
+    top: 10%;
+    transform: translate(-25%, -30%);
+}
+.china_img_2{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 40%;
+    top: 23%;
+    transform: translate(-25%, -30%);
+}
+.china_img_3{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 40%;
+    top: 38%;
+    transform: translate(-25%, -30%);
+}
+.china_img_4{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 35%;
+    top: 50%;
+    transform: translate(-25%, -30%);
+}
+.flag_9{
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.argentina_b{
+    height: 50px;
+    width: auto;
+    background-color: rgb(131, 232, 255);
+    border-radius: 20px 20px 0px 0px;
+}
+.argentina_w{
+    height: 50px;
+    width: auto;
+    background-color: #fff;
+}
+.argentina_blue{
+    height: 50px;
+    width: auto;
+    background-color: rgb(131, 232, 255);
+    border-radius: 0px 0px 20px 20px;
+} 
+.argentina_icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag_10{
+    height: 150px;
+    width: 250px;
+    background-color: rgb(217, 6, 6);
+    border-radius: 20px;
+    position: relative;
+}
+.turkey_r{
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+.turkey_icon{
+    position: absolute;
+    height: 120px;
+    width: 130px;
+    left: 40%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+.flag_11{
+    height: 150px;
+    width: 240px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.afg_b{
+    position: absolute;
+    padding-left: 0px;
+    height: 150px;
+    width: 80px;
+    background-color: rgb(10, 0, 0);
+    left: 0%;
+    top: 0%;
+    border-radius: 20px 0px 0px 20px;
+}
+.afg_r{
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    background-color: rgb(199, 2, 19);
+    left: 33.4%;
+}
+.afg_g{
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    background-color: rgb(21, 124, 5);
+    left: 66.7%;
+    top: 0%;
+    border-radius: 0px 20px 20px 0px;
+}
+.afg_icon{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
