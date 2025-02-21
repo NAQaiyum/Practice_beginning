@@ -6,11 +6,12 @@ h1{
 }
 .main_div{
     border: 2px solid black;
-    height: 2000px;
+    height: 700px;
     width: 1200px;
     left: 50%;
     position: absolute;
     transform: translate(-50%);
+    display: block;
 }
 
 /* for inside border & text position*/
@@ -185,6 +186,7 @@ h3{
     width: 100%;
     display: inline-block;
 }
+
 /* for button_animation_5*/
 .animation_5{
     margin: 20px 25px;
@@ -241,6 +243,7 @@ h3{
     width: 50%;
     display: inline-block;
 }
+
 /* for button_animation_6*/
 .animation_6{
     margin: 20px 25px;
@@ -295,6 +298,120 @@ h3{
 
 .test_6:hover .overlay_6_2{
     height: 50%;
+    display: inline-block;
+}
+
+/* for button_animation_7*/
+.animation_7{
+    margin: 20px 25px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.test_7{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(49, 221, 175);
+    border: none;
+    display: inline-block;
+    z-index: 1;
+}
+
+.overlay_7_1{
+    background-color: rgb(153, 48, 92);
+    height: 0;
+    width: 50%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_7:hover .overlay_7_1{
+    height: 100%;
+    display: inline-block;
+}
+.overlay_7_2{
+    background-color: rgb(153, 48, 92);
+    height: 0;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_7:hover .overlay_7_2{
+    height: 100%;
+    display: inline-block;
+}
+
+/* for button_animation_8*/
+.animation_8{
+    margin: 20px 25px;
+    border: 2px solid black;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.test_8{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 40px 80px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(49, 221, 175);
+    border: none;
+    display: inline-block;
+    z-index: 1;
+}
+
+.overlay_8_1{
+    background-color: rgb(153, 48, 92);
+    height: 50%;
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_8:hover .overlay_8_1{
+    width: 100%;
+    display: inline-block;
+}
+.overlay_8_2{
+    background-color: rgb(153, 48, 92);
+    height: 50%;
+    width: 0%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+    position: absolute;
+    display: inline-block;
+}
+
+.test_8:hover .overlay_8_2{
+    width: 100%;
     display: inline-block;
 }
 
