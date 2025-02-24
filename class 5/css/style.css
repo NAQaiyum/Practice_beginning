@@ -416,3 +416,141 @@ h3{
 }
 
 
+
+/* start_image_animation */
+.image{
+    margin: 20px auto;
+    border: 2px solid rgb(0, 0, 0);
+    height: 500px;
+    width: 800px;
+    background: url(../images/road.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.image .sun{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 140px;
+    top: 200px;
+    animation: sun 11s linear infinite;
+}
+.image .bike{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    top: 360px;
+    animation: bike 7s linear infinite;
+}
+.image .car{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0px;
+    top: 390px;
+    animation: car 9s linear infinite;
+}
+.image .police{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    animation: police 7s linear infinite;
+}
+@keyframes sun{
+    0%{
+        z-index: -1;
+        top: 200px;
+        left: 140px;
+    }
+    40%{
+        left: 140px;
+        top: 80px;
+        z-index: 1;
+    }
+    70%{
+        z-index: 1;
+        left: 140px;
+        top: 30px;
+    }
+    90%{
+        z-index: 1;
+        left: 140px;
+        top: 30px;
+    }
+    100%{
+        z-index: -1;
+        left: 140px;
+        top: 200px;
+    }
+    
+}
+@keyframes bike{
+    0%{
+        left: 0px;
+        top: 360px;
+        z-index: 1;
+    }
+    45%{
+        left: 50%;
+        top: 360px;
+        transform: scaleX(1);
+        transform: translate(-100%);
+    }
+    52%{
+        left: 50%;
+        top: 380px;
+        transform: scaleX(-1);
+        z-index: 1;
+    }
+    100%{
+        left: -10px;
+        top: 380px;
+        transform: scaleX(-1);
+        z-index: 1;
+    }
+    
+}
+@keyframes car{
+    0%{
+        right: 0px;
+        top: 390px;
+        transform: scaleX(-1);
+        z-index: 3;
+    }
+    100%{
+        right: 100%;
+        top: 390px;
+        transform: translateX(100%) scaleX(-1);
+        z-index: 3;
+    }
+}
+@keyframes police{
+    0%{
+        right: 0px;
+        top: 310px;
+        z-index: 2;
+    }
+    70%{
+        right: 30%;
+        top: 300px;
+        transform: scaleX(1);
+        z-index: 2;
+    }
+    75%{
+        right: 30%;
+        top: 300px;
+        transform: scaleX(-1);
+        z-index: 2;
+    }
+    100%{
+        right: 0;
+        top: 300px;
+        transform: scaleX(-1);
+        z-index: 2;
+    }
+}
