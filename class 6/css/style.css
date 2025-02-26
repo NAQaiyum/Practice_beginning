@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: url(../image/galaxy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.main{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    border-radius: 50%;
+    background: url(../image/sun.png) no-repeat center;
+    border: 1px solid white;
+    animation: one 20s linear infinite;
+}
+
+.main::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main .one{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/mercury.png) no-repeat center;
+}
+
+
+ /* two */
+.main2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(150deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: two 25s linear infinite;
+}
+
+.main2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main2 .two{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/venus.png) no-repeat center;
+}
+
+.main3{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(40deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: three 35s linear infinite;
+}
+
+.main3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main3 .three{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/earth.png) no-repeat center;
+    animation: moon 20s linear infinite;
+}
+
+.main3 .three::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 130%;
+    width: 130%;
+}
+.main3 .three::after{
+    content: "";
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+ /* four */
+.main4{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(230deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: four 45s linear infinite;
+}
+
+.main4::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main4 .four{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/mars.png) no-repeat center;
+}
+
+
+ /* five */
+.main5{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(320deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: five 55s linear infinite;
+}
+
+.main5::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgb(247, 247, 247); */
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main5 .five{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    /* background: white; */
+    background: url(../image/jupitar.png) no-repeat center;
+    animation: moon 60s linear infinite;
+}
+
+.main5 .five::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 130%;
+    width: 130%;
+}
+.main5 .five::after{
+    content: "";
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+ /* six */
+.main6{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(160deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: six 70s linear infinite;
+}
+
+.main6::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main6 .six{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/saturnn.png) no-repeat center;
+    animation: moon 70s linear infinite;
+}
+
+.main6 .six::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 130%;
+    width: 130%;
+}
+.main6 .six::after{
+    content: "";
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+ /* seven */
+.main7{
+    width: 530px;
+    height: 530px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: seven 80s linear infinite;
+}
+
+.main7::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main7 .seven{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/uranus.png) no-repeat center;
+}
+
+ /* eight */
+.main8{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    border-radius: 50%;
+    border: 1px solid white;
+    animation: eight 80s linear infinite;
+}
+
+.main8::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.main8 .eight{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: url(../image/neptune.png) no-repeat center;
+}
+
+
+@keyframes one{
+    0%{
+        transform: translate(-50%, -50%) rotate(180deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(540deg); 
+    }
+}
+
+
+@keyframes two{
+    0%{
+        transform: translate(-50%, -50%) rotate(150deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(510deg); 
+    }
+}
+@keyframes three{
+    0%{
+        transform: translate(-50%, -50%) rotate(40deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(400deg); 
+    }
+}
+
+@keyframes four{
+    0%{
+        transform: translate(-50%, -50%) rotate(230deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(590deg); 
+    }
+}
+
+@keyframes five{
+    0%{
+        transform: translate(-50%, -50%) rotate(320deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(680deg); 
+    }
+}
+@keyframes six{
+    0%{
+        transform: translate(-50%, -50%) rotate(160deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(520deg); 
+    }
+}
+@keyframes seven{
+    0%{
+        transform: translate(-50%, -50%) rotate(90deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(450deg); 
+    }
+}
+@keyframes eight{
+    0%{
+        transform: translate(-50%, -50%) rotate(20deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(380deg); 
+    }
+}
+@keyframes moon{
+    0%{
+        transform: translate(-50%, -50%) rotate(90deg); 
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg); 
+    }
+}
