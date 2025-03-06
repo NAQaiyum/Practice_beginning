@@ -1,0 +1,115 @@
+.body{
+    margin: 100px 350px;
+}
+.main{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+}
+.one{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(168, 134, 127);
+}
+.two{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(134, 178, 186);
+    display: flex;
+}
+.five{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 151, 71);
+    display: flex;
+}
+.seventeen{
+    width: 200px;
+    height: 100px;
+    background-color: darkgrey;
+}
+.eighteen{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(233, 47, 47);
+    display: flex;
+}
+.nineteen{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse
+}
+.twenty{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(254, 254, 254)
+}
+.six{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(125, 166, 174);
+    display: flex;
+}
+.seven{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(134, 127, 211);
+    display: flex;
+}
+.nine{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(58, 107, 46);
+}
+.ten{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(24, 196, 239);
+}
+.eight{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(126, 195, 77);
+    display: flex;
+}
+.eleven{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+}
+.thirteen{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(183, 123, 43);
+}
+.fourteen{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(225, 140, 106);
+    display: flex;
+}
+.fifteen{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(228, 228, 117);
+}
+.sixteen{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 127, 236);
+}
+.twelve{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 49, 55);
+}
+.three{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(252, 255, 71);
+}
+.four{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(255, 175, 71);
+}
