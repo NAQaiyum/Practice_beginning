@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+ 
+ul li{
+    color: rgb(210, 88, 88);
+    font-size: 25px;
+    position: relative;
+}
+
+li::after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: transparent;
+    transition: .5s ;
+    transform: translate(-50%);
+}
+
+li:hover::after{
+    background-color:blueviolet;
+    width: 100%;
+}
