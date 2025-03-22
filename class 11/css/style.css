@@ -1,0 +1,74 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+/* navbar start*/
+nav{
+    background: #FAE3B6;
+    padding: 50px 0;
+}
+
+nav .navbar_box{
+    align-items: center;
+}
+
+.navbar_box{
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+}
+.nav_menu{
+    width: 60%;
+}
+.nav_menu ul{
+    display: flex;
+    column-gap: 60px;
+    justify-content: center;
+}
+.nav_menu ul li a{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.button{
+    width: 20%;
+    text-align: right;
+}
+
+nav .button a{
+    background: #FDBB57;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+}
+nav .button .button_gap{
+    margin-left: 10px;
+}
+
+nav .button a:hover{
+    background: #FAE3B6;
+    border-color: #FDBB57;
+}
