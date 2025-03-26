@@ -24,11 +24,11 @@ nav{
     padding: 50px 0;
 }
 
-nav .navbar_box{
+nav .box{
     align-items: center;
 }
 
-.navbar_box{
+.box{
     display: flex;
 }
 
@@ -71,4 +71,59 @@ nav .button .button_gap{
 nav .button a:hover{
     background: #FAE3B6;
     border-color: #FDBB57;
+}
+
+/* banner_part */
+.banner{
+    background: #FAE3B6;
+}
+.banner .box{
+    padding-top: 100px;
+}
+
+.box .left{
+    width: 50%;
+}
+.box .left h1{
+    width: 540px;
+    height: 263px;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+}
+.box .left{
+    width: 50%;
+}
+
+.box .left p{
+    padding-top: 38px;
+    width: 530px;
+    height: 120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 76px;
+}
+
+.box .left a{
+    padding: 15px 30px;
+    color: white;
+    background: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.box .left a:hover{
+    background: #FAE3B6;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.box .right{
+    width: 50%;
+    padding-bottom: 102px;
 }
