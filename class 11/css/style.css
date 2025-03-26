@@ -73,7 +73,7 @@ nav .button a:hover{
     border-color: #FDBB57;
 }
 
-/* banner_part */
+/* banner_part_start */
 .banner{
     background: #FAE3B6;
 }
@@ -84,6 +84,7 @@ nav .button a:hover{
 .box .left{
     width: 50%;
 }
+
 .box .left h1{
     width: 540px;
     height: 263px;
@@ -91,6 +92,7 @@ nav .button a:hover{
     font-size: 64px;
     font-weight: 600;
 }
+
 .box .left{
     width: 50%;
 }
@@ -122,8 +124,9 @@ nav .button a:hover{
     color: black;
 }
 
-
 .box .right{
     width: 50%;
     padding-bottom: 102px;
 }
+
+/* banner_part_end */
