@@ -130,3 +130,18 @@ nav .button a:hover{
 }
 
 /* banner_part_end */
+
+/* collection part start */
+
+.collection h2{
+    display: flex;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-bottom: 35px;
+}
+
