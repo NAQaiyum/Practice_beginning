@@ -143,6 +143,45 @@ nav .button a:hover{
     justify-content: center;
     align-items: center;
     margin-top: 180px;
-    margin-bottom: 35px;
+    margin-bottom: 73px;
 }
 
+.collection .card{
+    width: 349px;
+    height: 402px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.collection .box{
+    justify-content: space-between;
+}
+
+.collection .card .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transition: 1s;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection .card:hover .overlay{
+    top: 0%;
+    padding-top: 100px;
+}
+
+.collection .card .overlay a{
+    color: black;
+    background: rgba(255, 255, 255, 0.815);
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 10px 100px;
+}
