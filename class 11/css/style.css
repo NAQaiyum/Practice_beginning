@@ -185,3 +185,80 @@ nav .button a:hover{
     border-radius: 10px;
     padding: 10px 100px;
 }
+
+/* collection part end */
+
+/* fashion part start */
+
+.fashion{
+    margin-top: 180px;
+}
+
+.fashion .box{
+    align-items: center;
+    position: relative;
+}
+
+.fashion .left{
+    width: 50%;
+}
+
+.fashion .left img{
+    width: 100%;
+}
+
+.fashion .right{
+    width: 50%;
+    margin-left: 20px; 
+    padding-bottom: 0;
+}
+.fashion .right h2{
+    width: 437px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+}
+.fashion .right p{
+    width: 443px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 63px;
+    color: black;
+}
+
+.info-box{
+    position: absolute;
+    bottom: -190px;
+    right: 0;
+    width: 793px;
+    background: #FEECC8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 63px 0px;
+    z-index: -1;
+}
+
+.info-box .mini-box h4{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+.info-box .mini-box p{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+.info-box .mini-box{
+    border-right: 1px solid black;
+    padding-right: 35px;
+}
+.info-box .mini-box:last-child{
+    border-right: 0px;
+}
+
+/* fashion part end */
