@@ -192,6 +192,7 @@ nav .button a:hover{
 
 .fashion{
     margin-top: 180px;
+    margin-bottom: 300px;
 }
 
 .fashion .box{
@@ -262,3 +263,106 @@ nav .button a:hover{
 }
 
 /* fashion part end */
+
+/* product seller part start */
+
+.product{
+    background: #CFA485;
+    padding-top: 36px;
+    padding-bottom: 190px;
+}
+
+.product .text-part{
+    width: 40%;
+}
+.product .cart-one{
+    width: 30%;
+}
+.product .cart-two{
+    width: 30%;
+}
+
+.product .text-part h4{
+    width: 437px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+.product .text-part p{
+    width: 437px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 43px;
+    padding-bottom: 80px;
+}
+
+.product .text-part a{
+    background: #000000;
+    color: white;
+    padding: 24px 80px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+}
+
+
+.product .text-part a:hover{
+    background: #e6c4ac;
+    border-color: #FDBB57;
+    color: black;
+}
+
+.product .cart{
+    width: 366px;
+    height: 550px;
+    background: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.product .cart img{
+    /* width: 100%; */
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.product .cart .star ul{
+    display: flex;
+    column-gap: 8px;
+}
+.product .cart .star{
+    padding-top: 10px;
+    padding-left: 22px;
+}
+.product .cart .product_text{
+    padding-top: 1px;
+    padding-left: 22px;
+}
+.product .cart .product_text h5{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.product .cart .product_text p{
+    color: #C4C4C4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.product .cart .product_text span{
+    color: black;
+    padding-left: 30px;
+}
+
+.product .cart .star ul li i{
+    color: #FFAF37;
+    
+}
+
+
+/* product seller part end */
